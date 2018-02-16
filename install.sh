@@ -7,6 +7,7 @@ ln -sfv ~/.dotfiles/fish/fish_prompt.fish  ~/.config/fish/functions/fish_prompt.
 ln -sfv ~/.dotfiles/git/gitconfig          ~/.gitconfig
 ln -sfv ~/.dotfiles/git/gitignore_global   ~/.gitignore_global
 ln -sfv ~/.dotfiles/ssh/authorized_keys    ~/.ssh/authorized_keys
+ln -sfv ~/.dotfiles/ssh/config             ~/.ssh/config
 ln -sfv ~/.dotfiles/vim/vimrc              ~/.vimrc
 
 ## Uncommon
