@@ -7,12 +7,11 @@ source $ZSH/oh-my-zsh.sh
 
 # general
 alias gdb="gdb -q"
-alias sftp-cs="sftp smangiap@data.cs.purdue.edu"
-alias ssh-cs="ssh smangiap@data.cs.purdue.edu"
 export EDITOR='vim'
 export PAGER="less -S"
 export PATH=~"/.bin:${PATH}"
 export SSH_KEY_PATH="~/.ssh/id_rsa"
+export TERM="xterm-256color"
 unsetopt share_history
 
 # local configuration
