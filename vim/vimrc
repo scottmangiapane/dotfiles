@@ -1,0 +1,18 @@
+colorscheme Theme
+filetype plugin indent on
+set backspace=indent,eol,start
+set cindent
+set noexpandtab
+set number
+set scrolloff=9999
+set shiftwidth=4
+set softtabstop=0
+set tabstop=4
+set wrap!
+syntax on
+
+if &term =~ '256color'
+	set t_ut=
+endif
+
+execute pathogen#infect()
