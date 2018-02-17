@@ -29,6 +29,10 @@ git pull
   ```bash
   git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material
   ```
+* [Vim Pug](https://github.com/digitaltoad/vim-pug)
+  ```bash
+  git clone git://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
+  ```
 * [Fish Shell](https://fishshell.com/)
 
 ## Security notice
