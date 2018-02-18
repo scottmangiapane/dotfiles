@@ -1,8 +1,10 @@
 Host scottmangiapane.com
 	User gcp
+	Port 50886
 
 Host rpi.scottmangiapane.com
 	User rpi
+	Port 50886
 
 Host data.cs.purdue.edu
 	User smangiap
