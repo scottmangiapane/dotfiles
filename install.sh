@@ -14,7 +14,7 @@ ln -sfv ~/.dotfiles/vim/vimrc              ~/.vimrc
 
 #ln -sfv ~/.dotfiles/bash/bashrc            ~/.bashrc
 #ln -sfv ~/.dotfiles/octave/octaverc        ~/.octaverc
-#ln -sfv ~/.dotfiles/conky/conky.config     ~/.config/conky/conky.conf
+#ln -sfv ~/.dotfiles/conky/conky.conf       ~/.config/conky/conky.conf
 #ln -sfv ~/.dotfiles/i3/config              ~/.config/i3/config
 #ln -sfv ~/.dotfiles/tmux/tmux.conf         ~/.tmux.conf
 #ln -sfv ~/.dotfiles/xmonad/xmonad.hs       ~/.xmonad/xmonad.hs
