@@ -29,6 +29,10 @@ git pull
   ```bash
   git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material
   ```
+* [Vim NGINX](https://github.com/chr4/nginx.vim)
+  ```bash
+  git clone git@github.com:chr4/nginx.vim.git ~/.vim/bundle/nginx-vim
+  ```
 * [Vim Pug](https://github.com/digitaltoad/vim-pug)
   ```bash
   git clone git://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
