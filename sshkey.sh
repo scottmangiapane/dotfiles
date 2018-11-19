@@ -10,5 +10,5 @@ eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_rsa
 
 echo "Done."
-echo "Here is your new SSH key:"
-cat ~/.ssh/id_rsa.pub
+echo "You can copy the public key to a remote server like this:"
+echo "ssh-copy-id -i ~/.ssh/id_rsa user@host"
