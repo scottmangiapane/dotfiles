@@ -6,7 +6,7 @@ WARNING: This will delete any conflicting dotfiles. Also, please read the securi
 * Make a fork of this repository
 * Clone the fork in your home directory  
   ```bash
-  git clone https://github.com/scottmangiapane/dotfiles.git ~/.dotfiles
+  git clone git@github.com:scottmangiapane/dotfiles.git ~/.dotfiles
   ```
 * Run the install script  
   ```bash
@@ -27,7 +27,7 @@ git pull
   ```
 * [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material)
   ```bash
-  git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material
+  git clone git@github.com:kristijanhusak/vim-hybrid-material.git ~/.vim/bundle/vim-hybrid-material
   ```
 * [Vim NGINX](https://github.com/chr4/nginx.vim)
   ```bash
