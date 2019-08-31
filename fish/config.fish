@@ -7,3 +7,5 @@ set -x PATH $PATH ~/.bin
 set -x TERM xterm-256color
 
 alias trizen "trizen --noedit --noinfo"
+
+source .profile
