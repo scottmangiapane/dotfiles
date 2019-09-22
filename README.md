@@ -4,11 +4,15 @@ I use this repository to sync my dotfiles among my various machines. It works by
 ## Installation
 WARNING: This will delete any conflicting dotfiles. Also, please read the security notice first.
 * Make a fork of this repository
-* Clone the fork in your home directory  
+* Clone the fork in your home directory:
   ```bash
   git clone https://github.com/scottmangiapane/dotfiles.git ~/.dotfiles
   ```
-* Run the install script  
+  Or with SSH key:
+  ```bash
+  git clone git@github.com:scottmangiapane/dotfiles.git ~/.dotfiles
+  ```
+* Run the install script
   ```bash
   ./.dotfiles/install.sh
   ```
@@ -22,20 +26,19 @@ git pull
 ## Dependencies
 * [Pathogen](https://github.com/tpope/vim-pathogen)
   ```bash
-  mkdir -p ~/.vim/autoload ~/.vim/bundle && \
-  curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
+  mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
   ```
 * [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material)
   ```bash
-  git clone https://github.com/kristijanhusak/vim-hybrid-material ~/.vim/bundle/vim-hybrid-material
+  git clone https://github.com/kristijanhusak/vim-hybrid-material.git ~/.vim/bundle/vim-hybrid-material
   ```
 * [Vim NGINX](https://github.com/chr4/nginx.vim)
   ```bash
-  git clone git@github.com:chr4/nginx.vim.git ~/.vim/bundle/nginx-vim
+  git clone https://github.com/chr4/nginx.vim.git ~/.vim/bundle/nginx-vim
   ```
 * [Vim Pug](https://github.com/digitaltoad/vim-pug)
   ```bash
-  git clone git://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
+  git clone https://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
   ```
 * [Fish Shell](https://fishshell.com/)
 
