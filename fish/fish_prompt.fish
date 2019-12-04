@@ -12,4 +12,16 @@ function fish_prompt
 	set_color normal
 
 	echo -n ' '
+
+	# Git
+	set_color --bold red
+	echo -n (git branch ^/dev/null | grep \* | sed 's/* //')
+	set_color normal
+
+	# Virtual_env
+	if set -q VIRTUAL_ENV
+		echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "
+	end
+
+	echo -n ' '
 end
