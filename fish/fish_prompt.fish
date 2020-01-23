@@ -15,10 +15,12 @@ function fish_prompt
 
 	# Git
 	set_color --bold red
-	echo -n (git branch ^/dev/null | grep \* | sed 's/* //')
+	set -l GIT_BRANCH (git branch ^/dev/null | grep \* | sed 's/* //')
+	if test -n "$GIT_BRANCH"
+		echo -n $GIT_BRANCH
+		echo -n ' '
+	end
 	set_color normal
-
-	echo -n ' '
 
 	# Virtual_env
 	if set -q VIRTUAL_ENV
