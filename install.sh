@@ -6,6 +6,7 @@ mkdir -p ~/.config/fish/functions
 
 ln -sfv ~/.dotfiles/fish/config.fish       ~/.config/fish/config.fish
 ln -sfv ~/.dotfiles/fish/fish_prompt.fish  ~/.config/fish/functions/fish_prompt.fish
+ln -sfv ~/.dotfiles/fish/jcurl.fish        ~/.config/fish/functions/jcurl.fish
 ln -sfv ~/.dotfiles/git/gitconfig          ~/.gitconfig
 ln -sfv ~/.dotfiles/git/gitignore_global   ~/.gitignore_global
 ln -sfv ~/.dotfiles/ssh/authorized_keys    ~/.ssh/authorized_keys
