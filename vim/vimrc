@@ -9,20 +9,34 @@ colorscheme hybrid_material
 let g:enable_bold_font = 1
 let g:enable_italic_font = 1
 
+" Automatically choose tabs / spaces
+
+set expandtab
+set shiftwidth=4
+set softtabstop=0
+set tabstop=4
+function TabsOrSpaces()
+    if getfsize(bufname("%")) > 256000
+        return
+    endif
+    let numTabs=len(filter(getbufline(bufname("%"), 1, 250), 'v:val =~ "^\\t"'))
+    let numSpaces=len(filter(getbufline(bufname("%"), 1, 250), 'v:val =~ "^ "'))
+    if numTabs > numSpaces
+        setlocal noexpandtab
+    endif
+endfunction
+autocmd BufReadPost * call TabsOrSpaces()
+
 " Configuration
 
 filetype plugin indent on
 set backspace=indent,eol,start
 set cindent
-set noexpandtab
 set number
 set scrolloff=9999
-set shiftwidth=4
-set softtabstop=0
-set tabstop=4
 set wrap!
 syntax on
 
 if &term =~ '256color'
-	set t_ut=
+    set t_ut=
 endif
