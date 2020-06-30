@@ -1,5 +1,13 @@
-Host data.cs.purdue.edu
-	User smangiap
+Host gemini
+	User gemini
+	HostName gemini.scottmangiapane.com
 
-Host rpi.scottmangiapane.com
-	User rpi
+Host gemini-init
+	User root
+	HostName gemini.scottmangiapane.com
+	UserKnownHostsFile ~/.ssh/known_hosts.initramfs
+
+Host purdue
+	User smangiap
+	HostName data.cs.purdue.edu
+
