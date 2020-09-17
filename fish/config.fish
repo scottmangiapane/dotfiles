@@ -10,4 +10,4 @@ set -x PATH $PATH ~/.bin
 set -x PATH $PATH ~/.npm-global/bin
 set -x TERM xterm-256color
 
-source .config.fish
+source ~/.config.fish
