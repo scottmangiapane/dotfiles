@@ -23,25 +23,6 @@ cd ~/.dotfiles
 git pull
 ```
 
-## Dependencies
-* [Pathogen](https://github.com/tpope/vim-pathogen)
-  ```bash
-  mkdir -p ~/.vim/autoload ~/.vim/bundle && curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
-  ```
-* [Vim Hybrid Material](https://github.com/kristijanhusak/vim-hybrid-material)
-  ```bash
-  git clone https://github.com/kristijanhusak/vim-hybrid-material.git ~/.vim/bundle/vim-hybrid-material
-  ```
-* [Vim NGINX](https://github.com/chr4/nginx.vim)
-  ```bash
-  git clone https://github.com/chr4/nginx.vim.git ~/.vim/bundle/nginx-vim
-  ```
-* [Vim Pug](https://github.com/digitaltoad/vim-pug)
-  ```bash
-  git clone https://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
-  ```
-* [Fish Shell](https://fishshell.com/)
-
 ## Security notice
 This repository adds my public SSH key to the authorized hosts file. I have this so that I can easily ssh into all of my machines without entering a password. THIS IS NOT WHAT YOU WANT. If you fork this repository, please remove this line from the installer:
 ```bash

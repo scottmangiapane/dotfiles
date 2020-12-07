@@ -1,2 +1,1 @@
-export PATH=~"/.bin:${PATH}"
-export PS1="${debian_chroot:+($debian_chroot)}\[[01;32m\]\u\[[01;34m\] \w\[[00m\] "
+export PS1="\e[01;32m\]bash \e[01;34m\]\w \e[m"

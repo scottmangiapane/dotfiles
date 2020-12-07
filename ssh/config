@@ -6,8 +6,3 @@ Host gemini-init
 	User root
 	HostName gemini.scottmangiapane.com
 	UserKnownHostsFile ~/.ssh/known_hosts_init
-
-Host purdue
-	User smangiap
-	HostName data.cs.purdue.edu
-
