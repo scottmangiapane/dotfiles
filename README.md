@@ -16,7 +16,7 @@ WARNING: This will delete any conflicting dotfiles. Also, please read the securi
   ```bash
   ./.dotfiles/install-defaults.sh
   ```
-* The installer only installs the dotfiles for the tools I use most frequently. Installation scripts are located in each subdirectory in case something you want is not included by default.
+* The installer only installs the dotfiles for the tools I use most frequently. Additional installation scripts are located in each subdirectory in case something you want is not included by default.
 
 ## Updating
 ```bash
