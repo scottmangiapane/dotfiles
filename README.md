@@ -1,5 +1,5 @@
 # ~/.dotfiles
-I use this repository to sync my dotfiles among my various machines. It works by downloading all the dotfiles into a single `~/.dotfiles` directory, then creating symlinks from their corresponding paths to the dotfiles directory. This makes updating as easy as `git pull`. Feel free to use them for yourself, or as inspiration for your own dotfiles.
+I use this repository to sync my dotfiles across my various machines. It works by downloading all the dotfiles into a single `~/.dotfiles` directory, then creating symlinks from their various system paths to the dotfiles directory. This makes updating as easy as `git pull`. Feel free to use them for yourself, or as inspiration for your own dotfiles.
 
 ## Installation
 WARNING: This will delete any conflicting dotfiles. Also, please read the security notice first.
@@ -25,8 +25,4 @@ git pull
 ```
 
 ## Security notice
-This repository adds my public SSH key to the authorized hosts file. I have this so that I can easily ssh into all of my machines without entering a password. THIS IS NOT WHAT YOU WANT. If you fork this repository, please remove this line from the installer:
-```bash
-ln -sfv ~/.dotfiles/ssh/config ~/.ssh/config
-```
-You may also want to delete the file `~/.dotfiles/ssh/authorized_keys`
+This repository adds my public SSH key to the authorized hosts file. I have this so that I can easily ssh into all of my machines without entering a password. THIS IS NOT WHAT YOU WANT. If you fork this repository, please update the SSH installer accordingly.
