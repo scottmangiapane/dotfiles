@@ -15,7 +15,7 @@ function fish_prompt
 
     # Git
     set_color --bold red
-    set -l GIT_BRANCH (git branch ^/dev/null | grep \* | sed 's/* //')
+    set -l GIT_BRANCH (git symbolic-ref HEAD 2> /dev/null | awk 'BEGIN{FS="/"} {print $NF}')
     if test -n "$GIT_BRANCH"
         echo -n $GIT_BRANCH
         echo -n ' '
