@@ -1,4 +1,5 @@
 alias gdb 'gdb -q'
+alias glow 'glow -p'
 alias uuid 'uuidgen | tr "[:upper:]" "[:lower:]"'
 
 set fish_greeting ""
