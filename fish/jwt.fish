@@ -1,6 +1,6 @@
 function jwt
 	if test (count $argv) != 1
-		echo "usage: jwt token"
+		echo "usage: jwt <token>"
 		return 1
 	end
 	if ! type -q jq

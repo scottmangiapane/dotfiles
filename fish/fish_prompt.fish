@@ -25,7 +25,5 @@ function fish_prompt
     # Virtual_env
     if set -q VIRTUAL_ENV
         echo -n -s (set_color -b blue white) "(" (basename "$VIRTUAL_ENV") ")" (set_color normal) " "
-
-        echo -n ' '
     end
 end
