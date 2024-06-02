@@ -7,4 +7,5 @@ curl -LSso ~/.vim/autoload/pathogen.vim https://tpo.pe/pathogen.vim
 git clone https://github.com/chr4/nginx.vim.git ~/.vim/bundle/vim-nginx
 git clone https://github.com/chrisbra/csv.vim ~/.vim/bundle/csv
 git clone https://github.com/digitaltoad/vim-pug.git ~/.vim/bundle/vim-pug
+git clone https://github.com/prettier/vim-prettier.git ~/.vim/bundle/vim-prettier
 git clone https://github.com/kristijanhusak/vim-hybrid-material.git ~/.vim/bundle/vim-theme
