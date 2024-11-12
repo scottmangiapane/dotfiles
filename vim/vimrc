@@ -32,6 +32,7 @@ autocmd BufReadPost * call TabsOrSpaces()
 filetype plugin indent on
 set backspace=indent,eol,start
 set cindent
+set cursorline
 set number
 set scrolloff=9999
 set wrap!
