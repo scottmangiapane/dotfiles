@@ -1,6 +1,7 @@
 alias gdb 'gdb -q'
 alias glow 'glow -p'
 alias jq 'jq -C'
+alias ls 'ls --color=auto --group-directories-first'
 alias uuid 'uuidgen | tr "[:upper:]" "[:lower:]"'
 
 set fish_greeting ""
